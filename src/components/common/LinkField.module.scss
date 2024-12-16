@@ -1,0 +1,23 @@
+.primaryLink {
+  position: relative;
+}
+
+.input {
+  cursor: var(--custom-cursor, pointer);
+  margin-bottom: 1rem;
+  padding-right: 3.5rem;
+  text-overflow: ellipsis;
+}
+
+.moreMenu, .copy {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 1;
+}
+
+.title {
+  font-weight: 500;
+  color: var(--color-text-secondary);
+}
